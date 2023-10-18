@@ -1,0 +1,220 @@
+/* Reset de estilos */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos gerais */
+body {
+    margin: 0;
+    background-color: #000;
+    color: #ecebeb;
+    font-size: 18px;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #000;
+    color: #D9B779;
+    font-family: 'New Rocker';
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    justify-content: space-between;
+}
+
+header h1 {
+    font-size: 45px;
+}
+
+header .container nav li {
+    display: inline;
+    text-decoration: none;
+    padding: 8px;
+    font-size: 25px;
+}
+
+header .container nav li a {
+    text-decoration: none;
+    color: #D9B779;
+}
+
+/* Layout em grade */
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+main {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Títulos */
+main h2 {
+    font-family: 'New Rocker';
+}
+
+/* Parágrafos e itens de lista */
+main p, main li strong {
+    font-family: 'Quicksand';
+}
+
+/* Imagem */
+main img {
+    width: 100%;
+}
+
+/* Agenda */
+#schedule .schedule {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 12px;
+    justify-content: space-between;
+}
+
+#schedule > h2, #historia > h2, #disc_memb > h2, #contato > h2 {
+    text-align: center;
+    font-size: 32px;
+    color: #000;
+    background-color: #f4d956;
+}
+
+#schedule .schedule a img {
+    height: 320px;
+    width: 320px;
+}
+
+#schedule .container {
+    padding: 16px 32px;
+    width: 300px;
+    background-color: #000;
+}
+
+#schedule .container h2 {
+    margin-bottom: 10px;
+    color: #a0a0a0;
+    font-weight: 700;
+    text-align: center;
+}
+
+#schedule ul li {
+    margin-top: 12px;
+    font-size: 16px;
+    color: #D9B779;
+}
+
+#schedule ul li p {
+    margin: 4px;
+    color: #ecebeb;
+}
+
+/* História */
+#historia p {
+    text-align: justify;
+    padding: 18px 150px;
+}
+
+/* Discografia e Membros */
+#disc_memb {
+    display: block;
+    align-items: center;
+    width: 100%;
+}
+
+.disc_memb {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 12px;
+    padding: 18px 250px;
+    margin: 0;
+    width: 100%;
+}
+
+#disc_memb .container {
+    padding: 16px 32px;
+    width: 290px;
+}
+
+#disc_memb .container h2 {
+    margin-bottom: 10px;
+    color: #a0a0a0;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* Formulário de Contato */
+main #contato .cp_form h3 {
+    text-align: center;
+    color: #000;
+    margin-bottom: 8px;
+}
+
+form input, form textarea, form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    width: 320px;
+}
+
+form input:focus, form textarea:focus {
+    outline-color: #47A603;
+}
+
+.cp_form {
+    background-color: #D9D9D9;
+    padding: 12px;
+    width: 345px;
+    margin: 12px auto; /* Centraliza horizontalmente */
+    align-items: center;
+    display: block;
+}
+
+form button {
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #0455BF;
+    color: #dcf5ff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #dcf5ff;
+    color: #0455BF;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+/* Contato */
+#contato p {
+    text-align: center;
+    padding: 18px;
+}
+
+#contato a {
+    text-decoration: none;
+    color: #ecebeb;
+}
+
+/* Rodapé */
+footer {
+    font-weight: 700;
+    text-align: center;
+    margin-top: 40px;
+    padding: 2px;
+    font-size: 18px;
+    color: #000000;
+    background-color: #fcfcfc;
+}
